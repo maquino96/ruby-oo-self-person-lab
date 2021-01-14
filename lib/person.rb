@@ -34,6 +34,8 @@ class Person
         end  
     end
     
+    #  conditional after the statement 
+    
       def hygiene=(num)
         @hygiene = num
         @hygiene = 10 if @hygiene > 10
